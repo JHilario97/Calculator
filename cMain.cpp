@@ -18,9 +18,7 @@ cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Calcoolator B)", wxPoint(30,30), wx
 	m_btn1 = new wxButton(this, wxID_ANY, "-", wxPoint(91, 350), wxSize(91, 75));
 	m_btn1 = new wxButton(this, wxID_ANY, "x", wxPoint(182, 350), wxSize(91, 75));
 	m_btn1 = new wxButton(this, wxID_ANY, "/", wxPoint(0, 350), wxSize(91, 75));
-
 	m_btn1 = new wxButton(this, wxID_ANY, "C", wxPoint(0, 275), wxSize(91, 75));
-	m_btn1 = new wxButton(this, wxID_ANY, "8", wxPoint(91, 200), wxSize(91, 75));
 	
 
 	m_txt1 = new wxTextCtrl(this, wxID_ANY, "", wxPoint(0, 0), wxSize(275, 50));
