@@ -12,4 +12,10 @@ public:
 	
 	wxTextCtrl* m_txt1 = nullptr;
 	wxListBox* m_list1 = nullptr;
+
+	wxButton** function;
+
+	void OnButtonClicked(wxCommandEvent& evt);
+
+	wxDECLARE_EVENT_TABLE();
 };
