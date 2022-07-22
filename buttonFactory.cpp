@@ -51,7 +51,21 @@ wxButton* buttonFactory::CreateButton(wxWindow* frame, wxWindowID ID)
 	case 104:
 		return new wxButton(frame, ID, "C", wxPoint(0, 275), wxSize(91, 75));
 		break;
-
+	case 105:
+		return new wxButton(frame, ID, "HEX", wxPoint(0,425), wxSize(91,75));
+		break;
+	case 106:
+		return new wxButton(frame, ID, "BIN", wxPoint(91, 425), wxSize(91, 75));
+		break;
+	case 107:
+		return new wxButton(frame, ID, "MOD", wxPoint(182, 425), wxSize(91, 75));
+		break;
+	case 108:
+		return new wxButton(frame, ID, "DEC", wxPoint(182, 500), wxSize(91, 75));
+		break;
+	case 109:
+		return new wxButton(frame, ID, "=", wxPoint(0, 500), wxSize(182, 75));
+		break;
 	}
 	
 }

@@ -4,6 +4,11 @@
 
 class cMain : public wxFrame
 {
+
+private:
+
+
+
 public:
 	cMain();
 	~cMain();
@@ -33,10 +38,15 @@ public:
 	wxButton* divideButton = nullptr;
 	wxButton* multiplyButton = nullptr;
 	wxButton* clearButton = nullptr;
+	wxButton* hexButton = nullptr;
+	wxButton* binButton = nullptr;
+	wxButton* modButton = nullptr;
+	wxButton* decButton = nullptr;
+	wxButton* equalsButton = nullptr;
 
 	wxButton** buttins;
 	
-
+	void IsSolved();
 
 
 	
